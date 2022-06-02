@@ -20,7 +20,7 @@ I store all of this information in a SQLite database. I manually reviewed it to 
 ## How to Use
 I'm not sure what minimum version of Ruby you need, but it should work on any Ruby 3.
 
-1. Install the dependencies with `bundle`
+1. Install the dependencies with `bundle`. You might also need to install `ghostscript` and ImageMagick for the image generator to work.
 2. Get a Google Cloud API key for the YouTube Data API and put it in `API_KEY`
 3. Run `extract.rb`
 4. Run `analyze.rb`
